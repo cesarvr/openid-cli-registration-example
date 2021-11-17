@@ -1,0 +1,23 @@
+{
+    "client_id": "1b1b5882-c4a3-470e-983a-7f2e1a7f28c7",
+    "client_id_issued_at": 1636450571,
+    "client_name": "my_client_sample",
+    "client_secret": "e4442ddd-629d-4efc-a975-8e456e375f5c",
+    "client_secret_expires_at": 0,
+    "grant_types": [
+        "authorization_code",
+        "refresh_token"
+    ],
+    "redirect_uris": [
+        "http://web1.org/login/callback"
+    ],
+    "registration_access_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0NDI2NzM0Yi04NmNhLTQ2YTAtYjM0Mi1mZGM2Y2JmNzc0YzAifQ.eyJqdGkiOiIxZWIxYjVkMi1mNGUyLTRiYzMtYTYwZi00MTY5ZmFjZTJkZjUiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNjM2NDUwNTcxLCJpc3MiOiJodHRwczovL3Nzby1jdmFsZGV6ci1kZXYuYXBwcy5zYW5kYm94Lng4aTUucDEub3BlbnNoaWZ0YXBwcy5jb20vYXV0aC9yZWFsbXMvbXlfcmVhbG0iLCJhdWQiOiJodHRwczovL3Nzby1jdmFsZGV6ci1kZXYuYXBwcy5zYW5kYm94Lng4aTUucDEub3BlbnNoaWZ0YXBwcy5jb20vYXV0aC9yZWFsbXMvbXlfcmVhbG0iLCJ0eXAiOiJSZWdpc3RyYXRpb25BY2Nlc3NUb2tlbiIsInJlZ2lzdHJhdGlvbl9hdXRoIjoiYW5vbnltb3VzIn0.AC3x4D4wWbRI7NSGZxOx0Ckwq1aVtdWuSIGTkwmlvvs",
+    "registration_client_uri": "https://sso-cvaldezr-dev.apps.sandbox.x8i5.p1.openshiftapps.com/auth/realms/my_realm/clients-registrations/openid-connect/1b1b5882-c4a3-470e-983a-7f2e1a7f28c7",
+    "response_types": [
+        "code",
+        "none"
+    ],
+    "subject_type": "public",
+    "tls_client_certificate_bound_access_tokens": false,
+    "token_endpoint_auth_method": "client_secret_basic"
+}

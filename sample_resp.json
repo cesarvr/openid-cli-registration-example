@@ -1,0 +1,27 @@
+{
+    "backchannel_logout_session_required": false,
+    "client_id": "23af45cb-ee43-45cb-b243-ebcd3236cff4",
+    "client_id_issued_at": 1634340969,
+    "client_name": "my_client_sample",
+    "client_secret": "c3978ac7-6c6d-4e93-916d-48f73b274e19",
+    "client_secret_expires_at": 0,
+    "grant_types": [
+        "authorization_code",
+        "refresh_token"
+    ],
+    "redirect_uris": [
+        "http://web1.org/login/callback"
+    ],
+    "registration_access_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiMzk0YWI4Yi1hNDRkLTRkYmItOTk3YS0yMjAwMTk4YjUzZmIifQ.eyJleHAiOjAsImlhdCI6MTYzNDM0MDk2OSwianRpIjoiNTY0ZTgxODItZDRlNy00MWQ4LWEwMmMtOTBhNWIyMzJlNzUyIiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMS4xMDA6ODA4MC9hdXRoL3JlYWxtcy9teV9yZWFsbSIsImF1ZCI6Imh0dHA6Ly8xOTIuMTY4LjEuMTAwOjgwODAvYXV0aC9yZWFsbXMvbXlfcmVhbG0iLCJ0eXAiOiJSZWdpc3RyYXRpb25BY2Nlc3NUb2tlbiIsInJlZ2lzdHJhdGlvbl9hdXRoIjoiYXV0aGVudGljYXRlZCJ9.2I-JcgJXHLrBemPo_Zr-UYX6Zq-NF0dXGf0pwizdEng",
+    "registration_client_uri": "http://192.168.1.100:8080/auth/realms/my_realm/clients-registrations/openid-connect/23af45cb-ee43-45cb-b243-ebcd3236cff4",
+    "request_uris": [],
+    "require_pushed_authorization_requests": false,
+    "response_types": [
+        "code",
+        "none"
+    ],
+    "scope": "address phone offline_access microprofile-jwt",
+    "subject_type": "public",
+    "tls_client_certificate_bound_access_tokens": false,
+    "token_endpoint_auth_method": "client_secret_basic"
+}
