@@ -4,7 +4,10 @@ Quick example on how to registrate OIDC clients using the public [client registr
 
 ## Client Registration 
 
-Generate a temporary token in the realm where you want to install the OIDC client, then visit the python script and paste the token on [line 6](https://github.com/cesarvr/openid-cli-registration-example/blob/main/client-registration.py#L6) in the [client_registration.py](https://github.com/cesarvr/openid-cli-registration-example/blob/main/client-registration.py), then you just need to run the script (make sure you are using python 3) like this: 
+
+<img src="https://github.com/cesarvr/openid-cli-registration-example/blob/main/help2.png?raw=true" alt="drawing" width="500"/>
+
+First you need to generate a temporary token in the realm where you want to install the OIDC client, then visit the python script and paste the token on [line 6](https://github.com/cesarvr/openid-cli-registration-example/blob/main/client-registration.py#L6) in the [client_registration script](https://github.com/cesarvr/openid-cli-registration-example/blob/main/client-registration.py), then you just need to run the script (make sure you are using [Python 3](https://www.python.org/downloads/)) like this: 
 
 ```sh
 python client-registration.py <rhsso/keycloak host URL> <realm-name> 
@@ -52,6 +55,9 @@ You can run the script [using_the_client.py](https://github.com/cesarvr/openid-c
 - Configure the correct [client id + secret](https://github.com/cesarvr/openid-cli-registration-example/blob/main/using_the_client.py#L59) (see the payload above on where to find those).  
 - Finally and for demo purposes modify the client allow direct access grant (this unnecessary in realm world applications).  
 
+<img src="https://github.com/cesarvr/openid-cli-registration-example/blob/main/help.png?raw=true" alt="drawing" width="500"/>
+
+> This option can be found by opening the registered client on the Keycloak dashboard. 
 
 
 Then run the script like this: 
