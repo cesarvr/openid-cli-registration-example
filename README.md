@@ -73,7 +73,7 @@ You can run the script [using_the_client.py](https://github.com/cesarvr/openid-c
 - Setup the host for the [RHSSO instance](https://github.com/cesarvr/openid-cli-registration-example/blob/main/using_the_client.py#L6)
 - Use the [right credentials](https://github.com/cesarvr/openid-cli-registration-example/blob/main/using_the_client.py#L28-L34)
 - Configure the correct [client id + secret](https://github.com/cesarvr/openid-cli-registration-example/blob/main/using_the_client.py#L59) (see the payload above on where to find those).  
-- Finally and for demo purposes modify the client allow direct access grant (this unnecessary in realm world applications).  
+- Finally and for demo purposes modify the client to allow **direct access grant** (this unnecessary in realm world applications).  
 
 <img src="https://github.com/cesarvr/openid-cli-registration-example/blob/main/help.png?raw=true" alt="drawing" width="500"/>
 
